@@ -1,0 +1,44 @@
+body {
+	background-image: url(http://tinyurl.com/kqzasds);
+	background-size: cover;
+}
+
+p {
+	text-align: center;
+	font-family: Menlo;
+	font-size: 16px;
+}
+
+footer {
+	padding-right: 100px;
+	text-align: right;
+	font-family: Menlo;
+	font-size: 8px;
+}
+
+.xylophone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.key {
+	width: 50px;
+    height: 50px;
+    margin: 20px;
+    float: left;
+    background-color: #443266;
+    color: white;
+    font-family: Menlo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition:all 0.07s;
+}
+
+.playing {
+	transform: scale(1.1);
+	border-color: black;
+	box-shadow: 0 0 10px;
+}
+
